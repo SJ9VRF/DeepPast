@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DeepPast — Archaeology, Accelerated by AI</title>
+  <meta name="description" content="A multimodal platform for discovery, 3D documentation, and field decision-making." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Spectral:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    html,body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+    .display{font-family:Spectral,serif}
+    .glass{backdrop-filter: blur(8px); background: rgba(243,232,209,.7)}
+    .hero-grad{background: radial-gradient(80% 60% at 50% 40%, #C6A15B33 0%, #1E3A8A 60%, #0B0F1A 100%)}
+  </style>
+</head>
+<body class="bg-[#0B0F1A] text-white">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 bg-[#0B0F1A]/80 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded bg-[#C6A15B]" aria-hidden="true"></div>
+        <span class="display text-xl">DeepPast</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#products" class="hover:text-[#C6A15B]">Products</a>
+        <a href="#solutions" class="hover:text-[#C6A15B]">Solutions</a>
+        <a href="#pricing" class="hover:text-[#C6A15B]">Pricing</a>
+        <a href="#science" class="hover:text-[#C6A15B]">Science</a>
+        <a href="#security" class="hover:text-[#C6A15B]">Security</a>
+        <a href="#resources" class="hover:text-[#C6A15B]">Resources</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#demo" class="px-4 py-2 rounded bg-[#C6A15B] text-sm font-semibold">Book a Demo</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-grad">
+    <div class="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="display text-4xl md:text-5xl leading-tight">Archaeology, accelerated by AI.</h1>
+        <p class="mt-4 text-white/80">
+          A multimodal platform for discovery, 3D documentation, and field decision-making—built for researchers, museums, and heritage & construction projects.
+        </p>
+        <div class="mt-6 flex gap-3">
+          <a href="#demo" class="px-5 py-3 rounded bg-[#C6A15B] font-semibold">Book a Demo</a>
+          <a href="#overview" class="px-5 py-3 rounded border border-white/20">Watch 2-min Overview</a>
+        </div>
+        <div class="mt-8 grid grid-cols-3 gap-4 text-center">
+          <div class="glass rounded p-4 text-[#0B0F1A]">
+            <div class="text-2xl font-extrabold">4×</div>
+            <div class="text-sm">Faster site identification</div>
+          </div>
+          <div class="glass rounded p-4 text-[#0B0F1A]">
+            <div class="text-2xl font-extrabold">35%</div>
+            <div class="text-sm">Lower redundant field costs</div>
+          </div>
+          <div class="glass rounded p-4 text-[#0B0F1A]">
+            <div class="text-2xl font-extrabold">92%</div>
+            <div class="text-sm">Multimodal match accuracy</div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white/5 rounded-xl aspect-video flex items-center justify-center">
+        <span class="text-white/60 text-sm">Place product video / screen here</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE PROP -->
+  <section id="value" class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="display text-3xl">From map to trench—end-to-end in one platform</h2>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <div class="p-6 rounded bg-white/5">
+        <h3 class="font-semibold mb-2">Faster Discovery</h3>
+        <p class="text-white/80">Prioritize zones using LiDAR, aerial imagery, field text, and GIS layers.</p>
+      </div>
+      <div class="p-6 rounded bg-white/5">
+        <h3 class="font-semibold mb-2">Live Documentation</h3>
+        <p class="text-white/80">3D scans + voice notes → standards-compliant reports automatically.</p>
+      </div>
+      <div class="p-6 rounded bg-white/5">
+        <h3 class="font-semibold mb-2">Field Decisions</h3>
+        <p class="text-white/80">Adaptive checklists, risk alerts, and prioritized maps for crews.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="display text-3xl">DeepPast Platform</h2>
+    <div class="mt-8 grid md:grid-cols-4 gap-6">
+      <div class="bg-white/5 p-5 rounded">
+        <h3 class="font-semibold">Survey AI</h3>
+        <p class="text-white/80 mt-2">Risk maps & regional prioritization.</p>
+      </div>
+      <div class="bg-white/5 p-5 rounded">
+        <h3 class="font-semibold">Field Copilot</h3>
+        <p class="text-white/80 mt-2">Mobile offline, speech↔text, motif recognition, GPS offsetting.</p>
+      </div>
+      <div class="bg-white/5 p-5 rounded">
+        <h3 class="font-semibold">3D Lab</h3>
+        <p class="text-white/80 mt-2">Reconstruction, measurement, museum-grade documentation.</p>
+      </div>
+      <div class="bg-white/5 p-5 rounded">
+        <h3 class="font-semibold">Heritage Ops</h3>
+        <p class="text-white/80 mt-2">Project management, versioning, secure archive/export.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTIONS -->
+  <section id="solutions" class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="display text-3xl">Solutions for every stakeholder</h2>
+    <div class="mt-8 grid md:grid-cols-4 gap-6 text-sm">
+      <div class="bg-white/5 p-5 rounded"><h3 class="font-semibold">Universities & Researchers</h3><p class="text-white/80 mt-2">Data mining, metadata dashboards, reproducibility.</p></div>
+      <div class="bg-white/5 p-5 rounded"><h3 class="font-semibold">Museums</h3><p class="text-white/80 mt-2">Smart cataloging, digital twins, narrative layers.</p></div>
+      <div class="bg-white/5 p-5 rounded"><h3 class="font-semibold">Heritage Agencies</h3><p class="text-white/80 mt-2">Impact assessments & protection priority.</p></div>
+      <div class="bg-white/5 p-5 rounded"><h3 class="font-semibold">Construction / CRM</h3><p class="text-white/80 mt-2">Reduced stoppages, compliance, fast reports.</p></div>
+    </div>
+  </section>
+
+  <!-- CASE STUDIES -->
+  <section id="cases" class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="display text-3xl">Case Studies</h2>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <div class="bg-white/5 rounded p-5"><h3 class="font-semibold">Roman Road Detection</h3><p class="text-white/80 mt-2">120 km²; identification time ↓ 60%</p></div>
+      <div class="bg-white/5 rounded p-5"><h3 class="font-semibold">Oasis Site Mapping</h3><p class="text-white/80 mt-2">LiDAR/photo alignment error to 8 cm</p></div>
+      <div class="bg-white/5 rounded p-5"><h3 class="font-semibold">Museum X Digitization</h3><p class="text-white/80 mt-2">5,000 objects; semantic search &lt; 1 s</p></div>
+    </div>
+    <a href="#" class="inline-block mt-6 px-5 py-3 rounded border border-white/20">Download Case Pack</a>
+  </section>
+
+  <!-- SCIENCE & SECURITY -->
+  <section id="science" class="max-w-7xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10">
+    <div>
+      <h2 class="display text-3xl">Science & Ethics</h2>
+      <p class="text-white/80 mt-4">Publications, datasets, model cards, uncertainty & limitations.</p>
+      <a href="#" class="inline-block mt-4 px-5 py-3 rounded bg-white/10">Read Our Science</a>
+    </div>
+    <div id="security">
+      <h2 class="display text-3xl">Security & Compliance</h2>
+      <p class="text-white/80 mt-4">Encryption, SSO/SAML, RBAC, audit logs, data residency, DPA.</p>
+      <a href="#" class="inline-block mt-4 px-5 py-3 rounded bg-white/10">Security Whitepaper</a>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="max-w-7xl mx-auto px-4 py-16">
+    <h2 class="display text-3xl">Clear Pricing</h2>
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <div class="bg-white/5 p-6 rounded">
+        <h3 class="font-semibold text-xl">Starter</h3>
+        <p class="text-white/70 mt-2">5 users, 200 GB, Survey AI Lite</p>
+        <a href="#demo" class="mt-4 inline-block px-4 py-2 rounded bg-[#C6A15B]">Get Started</a>
+      </div>
+      <div class="bg-white/10 p-6 rounded ring-2 ring-[#C6A15B]">
+        <h3 class="font-semibold text-xl">Pro</h3>
+        <p class="text-white/70 mt-2">25 users, 2 TB, Field Copilot + 3D Lab</p>
+        <a href="#demo" class="mt-4 inline-block px-4 py-2 rounded bg-[#C6A15B]">Start Trial</a>
+      </div>
+      <div class="bg-white/5 p-6 rounded">
+        <h3 class="font-semibold text-xl">Enterprise</h3>
+        <p class="text-white/70 mt-2">Unlimited, VPC/On-Prem, 99.9% SLA</p>
+        <a href="#sales" class="mt-4 inline-block px-4 py-2 rounded border border-white/20">Talk to Sales</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- INVESTORS -->
+  <section class="max-w-7xl mx-auto px-4 py-12 bg-white/5 rounded">
+    <h2 class="display text-2xl">For Investors</h2>
+    <ul class="mt-4 list-disc pl-5 text-white/80 space-y-1">
+      <li>Market: Heritage + AEC + Museums</li>
+      <li>Revenue: SaaS + Enterprise + data/digital-twin services</li>
+      <li>Defensibility: domain-specific data + multimodal models</li>
+      <li>12-month roadmap: offline mobile, auto-reporting, protection recommender</li>
+    </ul>
+    <div class="mt-4 flex gap-3">
+      <a href="#" class="px-4 py-2 rounded bg-[#C6A15B]">Investor Deck</a>
+      <a href="#contact" class="px-4 py-2 rounded border border-white/20">Request Intro</a>
+    </div>
+  </section>
+
+  <!-- LEAD CAPTURE -->
+  <section id="demo" class="max-w-3xl mx-auto px-4 py-16">
+    <h2 class="display text-3xl text-center">Book a Demo</h2>
+    <form class="mt-8 grid gap-4">
+      <input class="p-3 rounded bg-white/10" placeholder="Full name" />
+      <input class="p-3 rounded bg-white/10" placeholder="Organization" />
+      <input type="email" class="p-3 rounded bg-white/10" placeholder="Work email" />
+      <input class="p-3 rounded bg-white/10" placeholder="Use case (short)" />
+      <select class="p-3 rounded bg-white/10">
+        <option>Timeline</option><option>ASAP</option><option>1–3 months</option><option>3–6 months</option>
+      </select>
+      <label class="flex items-center gap-2 text-sm"><input type="checkbox" /> Send me the Science Pack</label>
+      <button class="mt-2 px-5 py-3 rounded bg-[#C6A15B] font-semibold">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-6 text-sm text-white/70">
+      <div><div class="display text-xl text-white">DeepPast</div><p class="mt-2">AI for cultural heritage.</p></div>
+      <div id="resources"><h4 class="font-semibold text-white">Company</h4><ul class="mt-3 space-y-2"><li>About</li><li>Careers</li><li>Press</li></ul></div>
+      <div><h4 class="font-semibold text-white">Resources</h4><ul class="mt-3 space-y-2"><li>Docs</li><li>Case Studies</li><li>Security</li></ul></div>
+      <div id="contact"><h4 class="font-semibold text-white">Contact</h4><p class="mt-3">hello@deeppast.ai</p></div>
+    </div>
+  </footer>
+</body>
+</html>
